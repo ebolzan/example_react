@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const elementH2 = React.createElement("h2", null, "Aprendendo react do jeito certo");
+const elementDIV = React.createElement("div", null, elementH2);
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  elementDIV,
+  
 );
 
 
