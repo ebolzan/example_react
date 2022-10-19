@@ -9,11 +9,7 @@ const elementH2 = React.createElement("h2", null, "Aprendendo react do jeito cer
 const elementDIV = React.createElement("div", null, elementH2);
 root.render(
   elementDIV,
-  
 );
-
-
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
